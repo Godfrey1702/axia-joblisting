@@ -1,0 +1,155 @@
+   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=League+Spartan:wght@100..900&family=Lilita+One&family=Lobster&family=Patua+One&family=Wendy+One&display=swap');
+   
+   body {
+     font-family: "Patua One", serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f0f0f0;
+    }
+
+     #filters {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+       padding: 10px;
+      box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+       position: absolute;
+       right: 38%;
+       bottom: 72%;
+       background-color: #f0f0f0;
+     }
+  
+     #filters label {
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       background-color: #f1f1f1;
+       padding: 8px 12px;
+       border-radius: 5px;
+       cursor: pointer;
+       font-size: 14px;
+       transition: background-color 0.3s ease;
+       white-space: nowrap;
+      
+     }
+  
+     #filters label:hover {
+       background-color: #e0e0e0;
+     }
+  
+     #filters input[type="checkbox"] {
+       width: 16px;
+       height: 16px;
+       accent-color: hsl(180, 29%, 50%);
+     }
+
+
+    header {
+     background-image: url(/images/bg-header-desktop.svg);
+     color: hsl(180, 29%, 50%);
+     text-align: center;
+     padding: 70px;
+     font-size: 24px;
+     border: 1px solid brown;
+    
+    }
+
+    .job-container {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     gap: 20px;
+     padding: 20px;
+     justify-content: center;
+    }
+
+    .job {
+     background: white;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     width: 100%;
+     max-width: 93%;
+    }
+
+    .job-logo img {
+     width: 50px;
+     height: 50px;
+    }
+
+    .info-cont {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+    }
+
+    .job-info h2 {
+     margin: 0;
+     font-size: 18px;
+    }
+
+    .job-info p {
+     margin: 5px 0;
+     color: #555;
+    }
+
+    .job-tags {
+     display: flex;
+     gap: 10px;
+    }
+
+    .tag {
+     background:hsl(180, 31%, 95%);
+     color: hsl(180, 14%, 20%);
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 14px;
+     
+    }
+
+    .iinf p{
+     color: red;
+    }
+
+    @media (max-width: 768px) {
+
+      header {
+        background-image:url(/images/bg-header-mobile.svg) ;
+          text-align: center;
+          padding: 90px;
+          padding-right: 80px;
+          font-size: 24px;
+        }
+     .job {
+      flex-direction: column;
+      text-align: center;
+     }
+
+        #filters {
+           display: flex;
+           flex-wrap: wrap;
+           gap: 10px;
+           padding: 10px;
+           margin-left: 60px;
+           background-color: #f0f0f0;
+         }
+
+     .job-logo img {
+      width: 80px;
+      height: 80px;
+     }
+
+     .info-cont {
+      flex-direction: column;
+      align-items: center;
+     }
+
+     .job-tags {
+      justify-content: center;
+      margin-top: 10px;
+     }
+    }

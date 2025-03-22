@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="filters">
+    <div>
+        <input type="checkbox" id="frontend" value="Frontend" />
+        <label for="frontend">Frontend</label>
+    </div>
+    <div>
+        <input type="checkbox" id="fullstack" value="Fullstack" />
+        <label for="fullstack">Fullstack</label>
+    </div>
+    <div>
+        <input type="checkbox" id="part-time" value="Part Time" />
+        <label for="part-time">Part Time</label>
+    </div>
+    <div>
+        <input type="checkbox" id="remote" value="Remote" />
+        <label for="remote">Remote</label>
+    </div>
+</div>
+    </header>
+    <main>
+        <div id="filters"></div>
+        <div id="job-listings" class="job-container">
+           <span></span>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
