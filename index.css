@@ -50,8 +50,6 @@
      text-align: center;
      padding: 70px;
      font-size: 24px;
-     border: 1px solid brown;
-    
     }
 
     .job-container {
@@ -122,7 +120,7 @@
           text-align: center;
           padding: 90px;
           padding-right: 80px;
-          font-size: 24px;
+          font-size: 24px;  
         }
      .job {
       flex-direction: column;
@@ -134,7 +132,7 @@
            flex-wrap: wrap;
            gap: 10px;
            padding: 10px;
-           margin-left: 60px;
+           margin-left: 100px;
            background-color: #f0f0f0;
          }
 
